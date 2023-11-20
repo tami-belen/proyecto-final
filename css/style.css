@@ -1,0 +1,213 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #c4b94a;
+   
+}
+
+body {
+    background-color: #c7c180;
+}
+
+
+/*titulos*/
+h1 {
+    color: rgb(20, 20, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    border: 10px;
+    text-align: center;
+
+}
+
+
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif
+}
+
+h3 {
+    font-family: cursive;
+    text-align: center;
+}
+
+/*barra navegacion*/
+nav ul {
+    background-color: #c9c170;
+    width: 100%;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-flex;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: dimgrey;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: #c7be55;
+}
+
+footer{
+    background-color: #c4b94a;
+padding: 30px;
+text-align: end;
+font-family: cursive
+}
+
+.anim {
+    margin: 20px;
+    padding: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*animación*/
+ .anim {
+    margin: 20px;
+    animation-duration: 5s;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    text-align-last: center;
+}
+
+@keyframes animacion {
+    5% {
+        opacity: 2;
+        color: rgb(184, 19, 129);
+    }
+
+    50% {
+        opacity: 2;
+        color: rgb(146, 88, 11);
+
+    }
+
+    100% {
+        opacity: 2;
+        color: rgb(255, 0, 98);
+
+    }
+
+}
+
+
+/*imagenes de los productos*/
+
+.vestidos img {
+    width: 550px;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 5%;
+}
+
+.faldas img {
+    width: 550px;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 5%;
+}
+
+.blusas img {
+    width: 550px;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5%;
+    gap: 10px
+}
+
+/*información*/
+.ubic {
+    margin: 80px;
+
+}
+
+
+    
+
+/*formulario*/
+
+.formulario{
+
+
+    border: 5px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 15px;
+width: 300px;
+height: 300px;
+left: 42%;
+position: relative
+
+}
+ 
+.cont{
+
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+    }
+    
+    
+    .cont_estilo  {
+        margin:50px ;
+        padding: 50 px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    .forma_pago{
+
+
+flex-direction: column;
+
+    }
+/*media query*/
+
+@media(max-width: 550px) {
+    
+  .header{
+display: flex;
+flex-direction: column;
+align-items: center;
+  }  
+    
+
+.ubic{
+margin: 5%;
+
+}
+
+.formulario{
+    margin: 15px;
+    left: auto;
+    
+}
+
+}
+
+
+    
