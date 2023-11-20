@@ -6,7 +6,7 @@
 
 header {
     background-color: #c4b94a;
-   
+
 }
 
 body {
@@ -31,7 +31,7 @@ h2 {
     margin: 20px;
     padding: 10px;
     color: black;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h3 {
@@ -65,22 +65,22 @@ nav li:hover {
     background-color: #c7be55;
 }
 
-footer{
+footer {
     background-color: #c4b94a;
-padding: 30px;
-text-align: end;
-font-family: cursive
+    padding: 30px;
+    text-align: end;
+    font-family: cursive;
 }
 
 .anim {
     margin: 20px;
     padding: 20px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 /*animación*/
- .anim {
+.anim {
     margin: 20px;
     animation-duration: 5s;
     animation-name: animacion;
@@ -144,70 +144,53 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
-
-    
-
 /*formulario*/
 
-.formulario{
-
-
+.formulario {
     border: 5px solid #E1E1E1;
     border-radius: 5px;
     padding: 15px;
-width: 300px;
-height: 300px;
-left: 42%;
-position: relative
+    width: 300px;
+    height: 300px;
+    left: 42%;
+    position: relative;
+}
+
+/*contacto*/
+.cont {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 
 }
- 
-.cont{
 
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    
-    }
-    
-    
-    .cont_estilo  {
-        margin:50px ;
-        padding: 50 px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.cont_estilo {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+
+}
 
 
-    }
-
-    .forma_pago{
-
-
-flex-direction: column;
-
-    }
 /*media query*/
 
 @media(max-width: 550px) {
-    
-  .header{
-display: flex;
-flex-direction: column;
-align-items: center;
-  }  
-    
 
-.ubic{
-margin: 5%;
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+
+    .ubic {
+        margin: 5%;
+
+    }
+
+    .formulario {
+        margin: 15px;
+        left: auto;
+
+    }
 }
-
-.formulario{
-    margin: 15px;
-    left: auto;
-    
-}
-
-}
-
-
-    
