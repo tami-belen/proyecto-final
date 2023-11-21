@@ -112,8 +112,8 @@ footer {
 /*imagenes de los productos*/
 
 .vestidos img {
-    width: 550px;
-    height: 600px;
+    width: 30%;
+    height: 20%;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
@@ -121,8 +121,8 @@ footer {
 }
 
 .faldas img {
-    width: 550px;
-    height: 600px;
+    width: 30%;
+    height: 20%;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
@@ -130,8 +130,9 @@ footer {
 }
 
 .blusas img {
-    width: 550px;
-    height: 600px;
+    
+    width: 30%;
+    height: 20%px;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 5%;
@@ -194,3 +195,5 @@ footer {
 
     }
 }
+
+
